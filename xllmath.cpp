@@ -1,4 +1,6 @@
 // xllmath.cpp
+// Copyright (c) KALX, LLC. All rights reserved. No warranty made.
+
 #include <cmath>
 #include"xllmath.h"
 
