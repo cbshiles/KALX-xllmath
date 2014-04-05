@@ -62,19 +62,19 @@ static AddInX xai_acosh (_T("?xll_acosh"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.ACO
 double WINAPI xll_acosh (double x)
 {
 #pragma XLLEXPORT
-    return acosh (x);
+    return acosh(x);
 }
 static AddInX xai_asinh (_T("?xll_asinh"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.ASINH"), _T("Num"), CATEGORY, _T("Compute arc hyperbolic sine."));
 double WINAPI xll_asinh (double x)
 {
 #pragma XLLEXPORT
-    return asinh (x);
+    return asinh(x);
 }
 static AddInX xai_atanh (_T("?xll_atanh"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.ATANH"), _T("Num"), CATEGORY, _T("Compute arc hyperbolic tangent."));
 double WINAPI xll_atanh (double x)
 {
 #pragma XLLEXPORT
-    return atanh (x);
+    return atanh(x);
 }
 static AddInX xai_exp(_T("?xll_exp"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.EXP"), _T("Num"), CATEGORY, _T("Compute exponential function."));
 double WINAPI xll_exp(double x)
@@ -98,37 +98,37 @@ static AddInX xai_exp2 (_T("?xll_exp2"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.EXP2"
 double WINAPI xll_exp2 (double x)
 {
 #pragma XLLEXPORT
-    return exp2 (x);
+    return exp2(x);
 }
 static AddInX xai_expm1 (_T("?xll_expm1"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.EXPM1"), _T("Num"), CATEGORY, _T("Compute exponential minus one."));
 double WINAPI xll_expm1 (double x)
 {
 #pragma XLLEXPORT
-    return expm1 (x);
+    return expm1(x);
 }
 static AddInX xai_ilogb (_T("?xll_ilogb"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.ILOGB"), _T("Num"), CATEGORY, _T("Integer binary logarithm."));
 double WINAPI xll_ilogb (double x)
 {
 #pragma XLLEXPORT
-    return ilogb (x);
+    return ilogb(x);
 }
 static AddInX xai_log1p (_T("?xll_log1p"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.LOG1P"), _T("Num"), CATEGORY, _T("Compute logarithm plus one."));
 double WINAPI xll_log1p (double x)
 {
 #pragma XLLEXPORT
-    return log1p (x);
+    return log1p(x);
 }
 static AddInX xai_log2 (_T("?xll_log2"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.LOG2"), _T("Num"), CATEGORY, _T("Compute binary logarithm."));
 double WINAPI xll_log2 (double x)
 {
 #pragma XLLEXPORT
-    return log2 (x);
+    return log2(x);
 }
 static AddInX xai_logb (_T("?xll_logb"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.LOGB"), _T("Num"), CATEGORY, _T("Compute floating-point base logarithm."));
 double WINAPI xll_logb (double x)
 {
 #pragma XLLEXPORT
-    return logb (x);
+    return logb(x);
 }
 static AddInX xai_sqrt(_T("?xll_sqrt"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.SQRT"), _T("Num"), CATEGORY, _T("Compute square root."));
 double WINAPI xll_sqrt(double x)
@@ -140,31 +140,31 @@ static AddInX xai_cbrt (_T("?xll_cbrt"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.CBRT"
 double WINAPI xll_cbrt (double x)
 {
 #pragma XLLEXPORT
-    return cbrt (x);
+    return cbrt(x);
 }
 static AddInX xai_erf (_T("?xll_erf"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.ERF"), _T("Num"), CATEGORY, _T("Compute error function."));
 double WINAPI xll_erf (double x)
 {
 #pragma XLLEXPORT
-    return erf (x);
+    return erf(x);
 }
 static AddInX xai_erfc (_T("?xll_erfc"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.ERFC"), _T("Num"), CATEGORY, _T("Compute complementary error function."));
 double WINAPI xll_erfc (double x)
 {
 #pragma XLLEXPORT
-    return erfc (x);
+    return erfc(x);
 }
 static AddInX xai_tgamma (_T("?xll_tgamma"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.TGAMMA"), _T("Num"), CATEGORY, _T("Compute gamma function."));
 double WINAPI xll_tgamma (double x)
 {
 #pragma XLLEXPORT
-    return tgamma (x);
+    return tgamma(x);
 }
 static AddInX xai_lgamma (_T("?xll_lgamma"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.LGAMMA"), _T("Num"), CATEGORY, _T("Compute log-gamma function."));
 double WINAPI xll_lgamma (double x)
 {
 #pragma XLLEXPORT
-    return lgamma (x);
+    return lgamma(x);
 }
 static AddInX xai_ceil(_T("?xll_ceil"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.CEIL"), _T("Num"), CATEGORY, _T("Round up value."));
 double WINAPI xll_ceil(double x)
@@ -182,25 +182,25 @@ static AddInX xai_trunc (_T("?xll_trunc"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.TRU
 double WINAPI xll_trunc (double x)
 {
 #pragma XLLEXPORT
-    return trunc (x);
+    return trunc(x);
 }
 static AddInX xai_round (_T("?xll_round"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.ROUND"), _T("Num"), CATEGORY, _T("Round to nearest."));
 double WINAPI xll_round (double x)
 {
 #pragma XLLEXPORT
-    return round (x);
+    return round(x);
 }
 static AddInX xai_rint (_T("?xll_rint"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.RINT"), _T("Num"), CATEGORY, _T("Round to integral value."));
 double WINAPI xll_rint (double x)
 {
 #pragma XLLEXPORT
-    return rint (x);
+    return rint(x);
 }
 static AddInX xai_nearbyint (_T("?xll_nearbyint"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.NEARBYINT"), _T("Num"), CATEGORY, _T("Round to nearby integral value."));
 double WINAPI xll_nearbyint (double x)
 {
 #pragma XLLEXPORT
-    return nearbyint (x);
+    return nearbyint(x);
 }
 static AddInX xai_abs(_T("?xll_abs"), XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.ABS"), _T("Num"), CATEGORY, _T("Compute absolute value."));
 double WINAPI xll_abs(double x)
@@ -225,7 +225,7 @@ static AddInX xai_hypot(_T("?xll_hypot"), XLL_DOUBLEX XLL_DOUBLEX XLL_DOUBLEX,  
 double WINAPI xll_hypot(double x, double x_)
 {
 #pragma XLLEXPORT
-    return hypot (x, x_);
+    return hypot(x, x_);
 }
 static AddInX xai_fdim(_T("?xll_fdim"), XLL_DOUBLEX XLL_DOUBLEX XLL_DOUBLEX,  _T("XLL.FDIM"), _T("Num, Num"), CATEGORY, _T("Positive difference."));
 double WINAPI xll_fdim(double x, double x_)
